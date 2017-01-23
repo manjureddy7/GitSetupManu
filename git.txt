@@ -1,0 +1,25 @@
+To upload files in git
+
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin <project url>
+git push -f origin master
+
+
+To save changes
+
+git status
+git add <path>
+git commit -m "Initial commit"
+git push -f origin master
+
+If getting any proxy errors
+
+Command to use:
+
+git config --global http.proxy http://proxyuser:proxypwd@proxy.server.com:8080
+change proxyuser to your proxy user
+change proxypwd to your proxy password
+change proxy.server.com to the URL of your proxy server
+change 8080 to the proxy port configured on your proxy server
